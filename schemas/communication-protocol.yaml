@@ -1,0 +1,32 @@
+version: 0.3
+name: lewis_communication_protocol
+
+term_style:
+  enabled: true
+  default_format: "English（中文）"
+  first_occurrence_format: "English（中文）：one-sentence explanation"
+  avoid:
+    - "English only when the term is important"
+    - "Chinese only when the term has common industry English"
+  purpose:
+    - "support professional English learning through normal usage"
+    - "reduce comprehension cost"
+    - "build long-term technical vocabulary"
+
+progressive_english:
+  enabled: true
+  stages:
+    beginner: "English（中文）：short explanation"
+    intermediate: "English（中文）"
+    advanced: "English"
+  rule: "Increase English density only when comprehension remains smooth."
+
+examples:
+  - term: "Commit（提交）"
+    explanation: "save one change record into Git history"
+  - term: "Repository（仓库）"
+    explanation: "a place to store project code, documents, and history"
+  - term: "Agent（智能体）"
+    explanation: "an AI system that can act toward a goal"
+  - term: "Workflow（工作流）"
+    explanation: "a repeatable process for completing a task"
