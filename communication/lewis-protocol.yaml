@@ -1,0 +1,4 @@
+signals:
+  执行: proceed
+  继续: continue
+  改: revise
